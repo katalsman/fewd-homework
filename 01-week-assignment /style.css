@@ -81,8 +81,10 @@ h2 {
   font-family: "Gill Sans", sans-serif;
   margin-left: 50px;
   font-size: 30px;
+  font-weight: normal;
   text-decoration: underline;
   text-transform: uppercase;
+  color: rgb(15, 142, 28)
 }
 
 ul {
