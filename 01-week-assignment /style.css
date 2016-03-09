@@ -1,0 +1,98 @@
+
+h1 {
+  font-weight: 600;
+  font-family: "chalkduster";
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+#header {
+  font-weight:600;
+  font-family: 'Gill Sans', sans-serif;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+#content {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align:left;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Gill Sans', sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #222222;
+  padding: 5px;
+  text-align: center
+  float:left;
+
+}
+
+#blurb {
+  font-family: 'Gill Sans',sans-serif;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-bottom: 200px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #222222;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 1500px;
+}
+
+#footer {
+  text-align: center;
+   margin-top:25px;
+   font-size: 18px;
+   font-family: 'Gill Sans',sans-serif;
+   font-weight: 600;;
+   margin-bottom:10px;
+}
+
+p {
+  margin-left: 0px;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+h2 {
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 50px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+ul {
+  margin-left: 50px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #05080C;
+}
