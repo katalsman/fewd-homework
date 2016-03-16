@@ -6,13 +6,41 @@ body .blue {
   text-align: center;
 }
 
-* {
-  border: 1px red;
-}
-
 .info {
   width: 100px;
   background-color: dodgerblue;
   text-align:center;
   margin: 0px auto;
+
+}
+/* NAV BAR STYLING: */
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    background: #990000;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #111;
+}
+
+ul {
+  list-style-type: none;
 }
