@@ -1,0 +1,11 @@
+
+header {
+  background-color: grey;
+  height: 60px;
+}
+footer {
+  background-color: black;
+}
+.back {
+  background-image: url(images/coworking.jpg);
+}
