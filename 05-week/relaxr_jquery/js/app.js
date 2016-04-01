@@ -7,6 +7,18 @@ $(document).ready(function() {
     function showAdditionalText(){
       $("#show-this-on-click").slideDown()
       event.preventDefault() // Prevents browser from scrolling to the top when clicked
+      $(".readmore").hide()
+      $(".readless").show()
+
+    }
+
+    $(".readless").click(hideAdditionalText)
+
+    function hideAdditionalText(){
+      $("#show-this-on-click").slideUp()
+      event.preventDefault()
+      $(".readless").hide()
+      $(".readmore").show()
     }
 
 });
