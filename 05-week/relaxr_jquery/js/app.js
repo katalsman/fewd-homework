@@ -5,20 +5,21 @@ $(document).ready(function() {
 //Targets with class="readmore"
 //If it's clicked, runs the showAdditionalText function
     function showAdditionalText(){
-      $("#show-this-on-click").slideDown()
-      event.preventDefault() // Prevents browser from scrolling to the top when clicked
-      $(".readmore").hide()
-      $(".readless").show()
 
+      console.log(this)
+      $("#show-this-on-click").slideDown()
+      $(this).hide()
+      $(".readless").show()
+      event.preventDefault() // Prevents browser from scrolling to the top when clicked
     }
 
     $(".readless").click(hideAdditionalText)
 
     function hideAdditionalText(){
-      $("#show-this-on-click").slideUp()
-      event.preventDefault()
+      $("#show-this-on-click").hide()
       $(".readless").hide()
       $(".readmore").show()
+      event.preventDefault()
     }
 
 });
