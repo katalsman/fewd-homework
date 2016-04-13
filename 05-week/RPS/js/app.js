@@ -70,8 +70,6 @@ $(document).ready(function() {
 
 
 
-
-
 });
 //issue/bug: computer picks weapon first BEFORE player...so player can always win...how to make computer display AFTER player clicks?
 //how to randomize using array...randomly picking an item form array
