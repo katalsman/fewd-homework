@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+
+#response {
+  width: 500px;
+  min-height: 80px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+/* CSS for this button pulled from W3 Schools http://www.w3schools.com/css/css3_buttons.asp */
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.pic {
+  height: 300px;
+}
+
+#addResponse {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+}
