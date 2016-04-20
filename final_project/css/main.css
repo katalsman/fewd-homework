@@ -1,0 +1,104 @@
+*{
+  background-color: white;
+  color: green;
+  outline: 1px solid red;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+h1{
+  display: block;
+  float: left;
+  background-color: white;
+  color: green;
+  font-family: sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 20px;
+  text-transform: uppercase;
+
+}
+
+.navbar {
+  border-radius: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  border-color: grey;
+  display: line-block;
+  float:left;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: absolute;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding: 10px;
+    background-color: #dddddd;
+    text-decoration: none;
+    height: auto;
+
+}
+
+.landing {
+  height: 500px;
+  width: 100%;
+  background-image: url(images/italy.jpg);
+}
+
+.project-section {
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+.project {
+  display:inline-block;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.box1 {
+
+}
+
+.box2 {
+  float:right;
+}
+
+p {
+  text-align: center;
+}
