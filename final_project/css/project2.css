@@ -1,0 +1,154 @@
+/*{
+  background-color: white;
+  color: green;
+  outline: 1px solid red;
+}*/
+
+html {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+
+}
+.header {
+  width: 100%;
+  background-color: black;
+}
+
+.style {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+header nav {
+  margin-right: 30%;
+  margin-left: 30%;
+  height: 50px;
+  width: auto;
+}
+
+header nav ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 15px;
+  height: 30px;
+  outline: 1px solid white;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  padding-left: 2%;
+  font-family: 'Poiret One', sans-serif;
+  width: auto;
+}
+
+
+.description {
+  float: left;
+  max-width: 28%;
+  height: 100%;
+  display: block;
+  padding-top: 10%;
+  padding-bottom: 40%;
+  margin-bottom: 60px;
+  margin-left: 40px;
+  position: fixed;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+}
+
+p {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding-bottom: 25px;
+  text-decoration: underline;
+  font-size: 40px;
+
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.project-photos {
+  float: right;
+  width: 100%;
+  height: auto;
+  margin-right: 5%;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: black;
+}
+
+.photos {
+  background-color: black;
+  display:block;
+  height: auto;
+  width: auto;
+  margin-left: 45%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  padding-top: 10px
+  padding-bottom: 10px;
+  padding-right: 5%;
+
+}
+
+.photo  {
+  margin-left: 7%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.back {
+  padding-top: 75px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  clear: both;
+  padding-top: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 1017px) {
+  .menu {
+    display:block;
+  }
+
+  ul {
+    display: none;
+  }
+}
+
+}
